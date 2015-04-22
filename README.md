@@ -1,6 +1,15 @@
 # tidy data course project
 This documents an approach for analyzing human activity recognition using smartphone data.  It is in response to the course project in the "Getting and Cleaning Data" course offered by Coursera/Johns Hopkins University.
 
+Overview:
+run_analysis.R will combine the test and training data, clean up the data, and put it in a format that is more readily readable.
+1.) Merges the training and the test sets to create one data set.
+2.) Extracts only the measurements on the mean and standard deviation for each measurement.
+3.) Uses descriptive activity names to name the activities in the data set.
+4.) Appropriately labels the data set with descriptive variable names.
+5.) From this data set, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
 Codebook:
 
 Xtrain: tmp variable, representes X_train.txt
